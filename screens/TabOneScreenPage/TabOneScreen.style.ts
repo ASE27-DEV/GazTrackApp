@@ -3,6 +3,16 @@ import { StyleSheet, Dimensions } from "react-native";
 const windowWidth = Dimensions.get('window');
 
 export const styles = StyleSheet.create({
+    button: {
+      backgroundColor: "#bbb",
+      paddingVertical: 12,
+      marginTop: 16,
+      borderRadius: 4,
+
+    },
+    buttonText: {
+      textAlign: "center",
+    },
     container: {
       flex: 1,
       alignItems: 'center',
@@ -32,7 +42,7 @@ export const styles = StyleSheet.create({
       elevation: 4,
       padding: 8,
       borderRadius: 8,
-      top: "-10%",
+      top: 5,
     },
     input: {
       borderColor: "#888",
